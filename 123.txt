@@ -1,0 +1,550 @@
+[35m[Appium][39m Welcome to Appium v1.8.2-beta
+[35m[Appium][39m Appium REST http interface listener started on 0.0.0.0:4723
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
+[35m[HTTP][39m [90m{"desiredCapabilities":{"app":"/Users/dimaprokop/Documents/am-ui-tests/src/test/resources/Alfa-Mobile.apk","clearSystemFiles":true,"newCommandTimeout":50,"appWaitActivity":"ru.alfabank.mobile.android.presentation.feature.signup.activity.SignUpBannerActivity","automationName":"UiAutomator2","autoGrantPermissions":true,"unicodeKeyboard":true,"udid":"emulator-5554","platformName":"Android","deviceName":"emulator-5554","resetKeyboard":true,"systemPort":8297},"requiredCapabilities":{},"capabilities":{"desiredCapabilities":{"app":"/Users/dimaprokop/Documents/am-ui-tests/src/test/resources/Alfa-Mobile.apk","clearSystemFiles":true,"newCommandTimeout":50,"appWaitActivity":"ru.alfabank.mobile.android.presentation.feature.signup.activity.SignUpBannerActivity","automationName":"UiAutomator2","autoGrantPermissions":true,"unicodeKeyboard":true,"udid":"emulator-5554","platformName":"Android","deviceName":"emulator-5554","resetKeyboard":true,"systemPort":8297},"requiredCapabilities":{},"alwaysMatch":{[39m
+[debug] [35m[MJSONWP][39m Calling AppiumDriver.createSession() with args: [{"app":"/Users/dimaprokop/Documents/am-ui-tests/src/test/resources/Alfa-Mobile.apk","clearSystemFiles":true,"newCommandTimeout":50,"appWaitActivity":"ru.alfabank.mobile.android.presentation.feature.signup.activity.SignUpBannerActivity","automationName":"UiAutomator2","autoGrantPermissions":true,"unicodeKeyboard":true,"udid":"emulator-5554","platformName":"Android","deviceName":"emulator-5554","resetKeyboard":true,"systemPort":8297},{},{"desiredCapabilities":{"app":"/Users/dimaprokop/Documents/am-ui-tests/src/test/resources/Alfa-Mobile.apk","clearSystemFiles":true,"newCommandTimeout":50,"appWaitActivity":"ru.alfabank.mobile.android.presentation.feature.signup.activity.SignUpBannerActivity","automationName":"UiAutomator2","autoGrantPermissions":true,"unicodeKeyboard":true,"udid":"emulator-5554","platformName":"Android","deviceName":"emulator-5554","resetKeyboard":true,"systemPort":8297},"requiredCapabilities":{},"alwaysMatch":{"platformName":"Android"},"firstMatch":[]}]
+[debug] [35m[BaseDriver][39m Event 'newSessionRequested' logged at 1532881086901 (19:18:06 GMT+0300 (MSK))
+[35m[Appium][39m Could not parse W3C capabilities: 'deviceName' can't be blank. Falling back to JSONWP protocol.
+[35m[Appium][39m The following capabilities were provided in the JSONWP desired capabilities that are missing in W3C capabilities: ["app","clearSystemFiles","newCommandTimeout","appWaitActivity","automationName","autoGrantPermissions","unicodeKeyboard","udid","platformName","deviceName","resetKeyboard","systemPort"]. Falling back to JSONWP protocol.
+[35m[Appium][39m Creating new AndroidUiautomator2Driver (v1.13.1) session
+[35m[Appium][39m Capabilities:
+[35m[Appium][39m   app: /Users/dimaprokop/Documents/am-ui-tests/src/test/resources/Alfa-Mobile.apk
+[35m[Appium][39m   clearSystemFiles: true
+[35m[Appium][39m   newCommandTimeout: 50
+[35m[Appium][39m   appWaitActivity: ru.alfabank.mobile.android.presentation.feature.signup.activity.SignUpBannerActivity
+[35m[Appium][39m   automationName: UiAutomator2
+[35m[Appium][39m   autoGrantPermissions: true
+[35m[Appium][39m   unicodeKeyboard: true
+[35m[Appium][39m   udid: emulator-5554
+[35m[Appium][39m   platformName: Android
+[35m[Appium][39m   deviceName: emulator-5554
+[35m[Appium][39m   resetKeyboard: true
+[35m[Appium][39m   systemPort: 8297
+[debug] [35m[BaseDriver][39m Creating session with MJSONWP desired capabilities: {"app":"/Users/dimaprokop/D...
+[35m[BaseDriver][39m Session created with session id: 38e2fc50-b900-4e1d-8df2-fe52d8ef700d
+[35m[BaseDriver][39m Using local app '/Users/dimaprokop/Documents/am-ui-tests/src/test/resources/Alfa-Mobile.apk'
+[debug] [35m[UiAutomator2][39m Checking whether app is actually present
+[debug] [35m[AndroidDriver][39m Getting Java version
+[35m[AndroidDriver][39m Java version is: 1.8.0_131
+[35m[ADB][39m Checking whether adb is present
+[35m[ADB][39m Found 5 'build-tools' folders under '/Users/dimaprokop/Library/Android/sdk' (newest first):
+[35m[ADB][39m     /Users/dimaprokop/Library/Android/sdk/build-tools/27.0.3
+[35m[ADB][39m     /Users/dimaprokop/Library/Android/sdk/build-tools/27.0.2
+[35m[ADB][39m     /Users/dimaprokop/Library/Android/sdk/build-tools/27.0.1
+[35m[ADB][39m     /Users/dimaprokop/Library/Android/sdk/build-tools/26.0.2
+[35m[ADB][39m     /Users/dimaprokop/Library/Android/sdk/build-tools/25.0.2
+[35m[ADB][39m Using adb from /Users/dimaprokop/Library/Android/sdk/platform-tools/adb
+[35m[AndroidDriver][39m Retrieving device list
+[debug] [35m[ADB][39m Trying to find a connected android device
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 1 device(s) connected
+[35m[AndroidDriver][39m Using device: emulator-5554
+[debug] [35m[ADB][39m Setting device id to emulator-5554
+[debug] [35m[ADB][39m Running '/Users/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell getprop ro.build.version.sdk'
+[debug] [35m[ADB][39m Current device property 'ro.build.version.sdk': 25
+[debug] [35m[ADB][39m Device API level: 25
+[debug] [35m[AndroidDriver][39m Parsing package and activity from app manifest
+[35m[ADB][39m Using apkanalyzer from /Users/dimaprokop/Library/Android/sdk/tools/bin/apkanalyzer
+[debug] [35m[ADB][39m Starting '/Users/dimaprokop/Library/Android/sdk/tools/bin/apkanalyzer' with args ["-h","manifest","print","/Users/dimaprokop/Documents/am-ui-tests/src/test/resources/Alfa-Mobile.apk"]
+[35m[ADB][39m Package name: 'ru.alfabank.mobile.android'
+[35m[ADB][39m Main activity name: 'ru.alfabank.mobile.android.presentation.feature.splash.activity.SplashActivity'
+[debug] [35m[AndroidDriver][39m Parsed package and activity are: ru.alfabank.mobile.android/ru.alfabank.mobile.android.presentation.feature.splash.activity.SplashActivity
+[35m[ADB][39m Getting device platform version
+[debug] [35m[ADB][39m Running '/Users/dimaprokop/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell getprop ro.build.version.release'
+[debug] [35m[ADB][39m Current device property 'ro.build.version.release': 7.1.1
+[debug] [35m[ADB][39m Running '/Users/dimaprokop/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell wm size'
+[debug] [35m[ADB][39m Running '/Users/dimaprokop/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell wm density'
+[debug] [35m[ADB][39m Running '/Users/dimaprokop/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell getprop ro.product.model'
+[debug] [35m[ADB][39m Current device property 'ro.product.model': Android SDK built for x86
+[debug] [35m[ADB][39m Running '/Users/dimaprokop/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell getprop ro.product.manufacturer'
+[debug] [35m[ADB][39m Current device property 'ro.product.manufacturer': Google
+[debug] [35m[ADB][39m Device API level: 25
+[debug] [35m[ADB][39m Running '/Users/dimaprokop/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell am force-stop io.appium.uiautomator2.server'
+[debug] [35m[ADB][39m Checking app cert for /usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v1.12.0.apk
+[35m[ADB][39m Using apksigner from /Users/dimaprokop/Library/Android/sdk/build-tools/27.0.3/apksigner
+[debug] [35m[ADB][39m Starting '/Users/dimaprokop/Library/Android/sdk/build-tools/27.0.3/apksigner' with args 'verify,--print-certs,/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v1.12.0.apk'
+[debug] [35m[ADB][39m '/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v1.12.0.apk' is already signed.
+[debug] [35m[ADB][39m Checking app cert for /usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk
+[debug] [35m[ADB][39m Starting '/Users/dimaprokop/Library/Android/sdk/build-tools/27.0.3/apksigner' with args 'verify,--print-certs,/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk'
+[debug] [35m[ADB][39m '/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk' is already signed.
+[debug] [35m[ADB][39m Getting install status for io.appium.uiautomator2.server
+[debug] [35m[ADB][39m Running '/Users/dimaprokop/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell pm list packages io.appium.uiautomator2.server'
+[debug] [35m[ADB][39m App is installed
+[debug] [35m[ADB][39m Getting package info for 'io.appium.uiautomator2.server'
+[debug] [35m[ADB][39m Running '/Users/dimaprokop/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys package io.appium.uiautomator2.server'
+[35m[ADB][39m Checking whether aapt is present
+[35m[ADB][39m Using aapt from /Users/dimaprokop/Library/Android/sdk/build-tools/27.0.3/aapt
+[debug] [35m[ADB][39m The installed 'io.appium.uiautomator2.server' package does not require upgrade ('1.12.0' >= '1.12.0')
+[debug] [35m[ADB][39m Getting install status for io.appium.uiautomator2.server.test
+[debug] [35m[ADB][39m Running '/Users/dimaprokop/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell pm list packages io.appium.uiautomator2.server.test'
+[debug] [35m[ADB][39m App is installed
+[debug] [35m[ADB][39m Getting package info for 'io.appium.uiautomator2.server.test'
+[debug] [35m[ADB][39m Running '/Users/dimaprokop/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys package io.appium.uiautomator2.server.test'
+[35m[ADB][39m Cannot read version codes of '/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk' and/or 'io.appium.uiautomator2.server.test'
+[35m[ADB][39m Cannot read version names of '/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk' and/or 'io.appium.uiautomator2.server.test'. Assuming correct app version is already installed
+[debug] [35m[UiAutomator2][39m Waiting up to 20000ms for instrumentation 'io.appium.uiautomator2.server.test/android.support.test.runner.AndroidJUnitRunner' to be available
+[debug] [35m[ADB][39m Running '/Users/dimaprokop/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell pm list instrumentation'
+[debug] [35m[UiAutomator2][39m Instrumentation 'io.appium.uiautomator2.server.test/android.support.test.runner.AndroidJUnitRunner' available
+[debug] [35m[ADB][39m Running '/Users/dimaprokop/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 wait-for-device'
+[debug] [35m[ADB][39m Running '/Users/dimaprokop/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell echo ping'
+[debug] [35m[AndroidDriver][39m Pushing settings apk to device...
+[debug] [35m[ADB][39m Getting install status for io.appium.settings
+[debug] [35m[ADB][39m Running '/Users/dimaprokop/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell pm list packages io.appium.settings'
+[debug] [35m[ADB][39m App is installed
+[debug] [35m[ADB][39m Getting package info for 'io.appium.settings'
+[debug] [35m[ADB][39m Running '/Users/dimaprokop/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys package io.appium.settings'
+[debug] [35m[ADB][39m The installed 'io.appium.settings' package does not require upgrade ('2.3.0' >= '2.3.0')
+[debug] [35m[ADB][39m Running '/Users/dimaprokop/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell ps'
+[debug] [35m[ADB][39m Device API level: 25
+[debug] [35m[ADB][39m Running '/Users/dimaprokop/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell am start -W -n io.appium.settings/.Settings -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+[debug] [35m[ADB][39m Device API level: 25
+[debug] [35m[ADB][39m Running '/Users/dimaprokop/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell appops set io.appium.settings android\:mock_location allow'
+[35m[AndroidDriver][39m setDeviceLanguageCountry requires language or country.
+[35m[AndroidDriver][39m Got language: 'null' and country: 'null'
+[debug] [35m[Logcat][39m Starting logcat capture
+[debug] [35m[AndroidDriver][39m Enabling Unicode keyboard support
+[debug] [35m[AndroidDriver][39m Pushing unicode ime to device...
+[debug] [35m[ADB][39m Running '/Users/dimaprokop/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 install /usr/local/lib/node_modules/appium/node_modules/appium-android-ime/bin/UnicodeIME-debug.apk'
+[debug] [35m[ADB][39m Running '/Users/dimaprokop/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 install /usr/local/lib/node_modules/appium/node_modules/appium-android-ime/bin/UnicodeIME-debug.apk'
+[debug] [35m[ADB][39m Application '/usr/local/lib/node_modules/appium/node_modules/appium-android-ime/bin/UnicodeIME-debug.apk' already installed. Continuing.
+[debug] [35m[ADB][39m Running '/Users/dimaprokop/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell settings get secure default_input_method'
+[debug] [35m[AndroidDriver][39m Unsetting previous IME com.android.inputmethod.latin/.LatinIME
+[debug] [35m[AndroidDriver][39m Setting IME to 'io.appium.android.ime/.UnicodeIME'
+[debug] [35m[ADB][39m Running '/Users/dimaprokop/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell ime enable io.appium.android.ime/.UnicodeIME'
+[debug] [35m[ADB][39m Running '/Users/dimaprokop/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell ime set io.appium.android.ime/.UnicodeIME'
+[debug] [35m[AndroidDriver][39m Pushing unlock helper app to device...
+[debug] [35m[ADB][39m Getting install status for io.appium.unlock
+[debug] [35m[ADB][39m Running '/Users/dimaprokop/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell pm list packages io.appium.unlock'
+[debug] [35m[ADB][39m App is installed
+[debug] [35m[ADB][39m Getting package info for 'io.appium.unlock'
+[debug] [35m[ADB][39m Running '/Users/dimaprokop/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys package io.appium.unlock'
+[debug] [35m[ADB][39m The installed 'io.appium.unlock' package does not require upgrade ('2.0.0' >= '2.0.0')
+[debug] [35m[UiAutomator2][39m Forwarding UiAutomator2 Server port 6790 to 8297
+[debug] [35m[ADB][39m Forwarding system: 8297 to device: 6790
+[debug] [35m[ADB][39m Running '/Users/dimaprokop/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 forward tcp\:8297 tcp\:6790'
+[debug] [35m[ADB][39m Running '/Users/dimaprokop/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell rm -rf /data/local/tmp/strings.json'
+[debug] [35m[AndroidDriver][39m Extracting strings from apk
+[debug] [35m[AndroidDriver][39m /Users/dimaprokop/Documents/am-ui-tests/src/test/resources/Alfa-Mobile.apk
+[debug] [35m[AndroidDriver][39m null
+[debug] [35m[AndroidDriver][39m /var/folders/kj/njqfw60j10zcbg7pj4lkbwfh0000gn/T/ru.alfabank.mobile.android
+[debug] [35m[ADB][39m Extracting strings for language: default
+[35m[ADB][39m Successfully extracted 1737 strings from '/Users/dimaprokop/Documents/am-ui-tests/src/test/resources/Alfa-Mobile.apk' resources for '(default)' configuration
+[debug] [35m[ADB][39m Running '/Users/dimaprokop/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 push /var/folders/kj/njqfw60j10zcbg7pj4lkbwfh0000gn/T/ru.alfabank.mobile.android/strings.json /data/local/tmp'
+[debug] [35m[ADB][39m Checking app cert for /Users/dimaprokop/Documents/am-ui-tests/src/test/resources/Alfa-Mobile.apk
+[debug] [35m[ADB][39m Starting '/Users/dimaprokop/Library/Android/sdk/build-tools/27.0.3/apksigner' with args 'verify,--print-certs,/Users/dimaprokop/Documents/am-ui-tests/src/test/resources/Alfa-Mobile.apk'
+[debug] [35m[ADB][39m '/Users/dimaprokop/Documents/am-ui-tests/src/test/resources/Alfa-Mobile.apk' is not signed with debug cert.
+[debug] [35m[ADB][39m Zip-aligning '/Users/dimaprokop/Documents/am-ui-tests/src/test/resources/Alfa-Mobile.apk'
+[35m[ADB][39m Checking whether zipalign is present
+[35m[ADB][39m Using zipalign from /Users/dimaprokop/Library/Android/sdk/build-tools/27.0.3/zipalign
+[debug] [35m[ADB][39m Signing '/Users/dimaprokop/Documents/am-ui-tests/src/test/resources/Alfa-Mobile.apk' with default cert
+[debug] [35m[ADB][39m Starting '/Users/dimaprokop/Library/Android/sdk/build-tools/27.0.3/apksigner' with args 'sign,--key,/usr/local/lib/node_modules/appium/node_modules/appium-adb/keys/testkey.pk8,--cert,/usr/local/lib/node_modules/appium/node_modules/appium-adb/keys/testkey.x509.pem,/Users/dimaprokop/Documents/am-ui-tests/src/test/resources/Alfa-Mobile.apk'
+[debug] [35m[ADB][39m Getting install status for ru.alfabank.mobile.android
+[debug] [35m[ADB][39m Running '/Users/dimaprokop/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell pm list packages ru.alfabank.mobile.android'
+[debug] [35m[ADB][39m App is not installed
+[debug] [35m[ADB][39m Getting install status for ru.alfabank.mobile.android
+[debug] [35m[ADB][39m Running '/Users/dimaprokop/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell pm list packages ru.alfabank.mobile.android'
+[debug] [35m[ADB][39m App is not installed
+[debug] [35m[ADB][39m App '/Users/dimaprokop/Documents/am-ui-tests/src/test/resources/Alfa-Mobile.apk' not installed. Installing
+[debug] [35m[ADB][39m Device API level: 25
+[debug] [35m[ADB][39m Running '/Users/dimaprokop/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 install -g /Users/dimaprokop/Documents/am-ui-tests/src/test/resources/Alfa-Mobile.apk'
+[debug] [35m[ADB][39m Install command stdout: Success
+[debug] [35m[ADB][39m Getting all processes with uiautomator
+[debug] [35m[ADB][39m Running '/Users/dimaprokop/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell ps'
+[debug] [35m[ADB][39m Running '/Users/dimaprokop/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell am force-stop io.appium.uiautomator2.server'
+[35m[UiAutomator2][39m Starting uiautomator2 server 1.12.0
+[35m[UiAutomator2][39m Using UIAutomator2 server from '/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v1.12.0.apk' and test from '/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk'
+[35m[UiAutomator2][39m Running command: 'adb -s emulator-5554 shell am instrument -w io.appium.uiautomator2.server.test/android.support.test.runner.AndroidJUnitRunner'
+[35m[UiAutomator2][39m Waiting up to 20000ms for UiAutomator2 to be online...
+[debug] [35m[JSONWP Proxy][39m Proxying [GET /status] to [GET http://localhost:8297/wd/hub/status] with no body
+[debug] [35m[JSONWP Proxy][39m Proxying [GET /status] to [GET http://localhost:8297/wd/hub/status] with no body
+[debug] [35m[JSONWP Proxy][39m Proxying [GET /status] to [GET http://localhost:8297/wd/hub/status] with no body
+[debug] [35m[JSONWP Proxy][39m Got response with status 200: "{\"sessionId\":\"SESSIONID\",\"status\":0,\"value\":\"Status Invoked\"}"
+[debug] [35m[JSONWP Proxy][39m Proxying [POST /session] to [POST http://localhost:8297/wd/hub/session] with body: {"desiredCapabilities":{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"app":"/Users/dimaprokop/Documents/am-ui-tests/src/test/resources/Alfa-Mobile.apk","clearSystemFiles":true,"newCommandTimeout":50,"appWaitActivity":"ru.alfabank.mobile.android.presentation.feature.signup.activity.SignUpBannerActivity","automationName":"UiAutomator2","autoGrantPermissions":true,"unicodeKeyboard":true,"udid":"emulator-5554","platformName":"Android","deviceName":"emulator-5554","resetKeyboard":true,"systemPort":8297},"app":"/Users/dimaprokop/Documents/am-ui-tests/src/test/resources/Alfa-Mobile.apk","clearSystemFiles":true,"newCommandTimeout":50,"appWaitActivity":"ru.alfabank.mobile.android.presentation.feature.signup.activity.SignUpBannerActivity","automationName":"UiAutomator2","autoGrantPermissions":true,"unicodeKeyboard":true,"udid":"emulator-5554","platformName":"...
+[debug] [35m[JSONWP Proxy][39m Got response with status 200: {"sessionId":"b126ca74-ba13-4a0a-969f-cc827ef9382c","status":0,"value":"Created Session"}
+[debug] [35m[ADB][39m Running '/Users/dimaprokop/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys window'
+[35m[AndroidDriver][39m Screen already unlocked, doing nothing
+[35m[UiAutomator2][39m UiAutomator2 did not start the activity we were waiting for, 'ru.alfabank.mobile.android/ru.alfabank.mobile.android.presentation.feature.signup.activity.SignUpBannerActivity'. Starting it ourselves
+[debug] [35m[ADB][39m Device API level: 25
+[debug] [35m[ADB][39m Running '/Users/dimaprokop/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell am start -W -n ru.alfabank.mobile.android/ru.alfabank.mobile.android.presentation.feature.splash.activity.SplashActivity -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+[debug] [35m[ADB][39m Waiting up to 20000ms for activity matching pkg: 'ru.alfabank.mobile.android' and activity: 'ru.alfabank.mobile.android.presentation.feature.signup.activity.SignUpBannerActivity' to be focused
+[debug] [35m[ADB][39m Possible activities, to be checked: 'ru.alfabank.mobile.android.presentation.feature.signup.activity.SignUpBannerActivity', 'ru.alfabank.mobile.android.ru.alfabank.mobile.android.presentation.feature.signup.activity.SignUpBannerActivity'
+[debug] [35m[ADB][39m Getting focused package and activity
+[debug] [35m[ADB][39m Running '/Users/dimaprokop/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys window windows'
+[debug] [35m[ADB][39m Found package: 'ru.alfabank.mobile.android' and fully qualified activity name : 'ru.alfabank.mobile.android.presentation.feature.splash.activity.SplashActivity'
+[debug] [35m[ADB][39m Incorrect package and activity. Retrying.
+[debug] [35m[ADB][39m Getting focused package and activity
+[debug] [35m[ADB][39m Running '/Users/dimaprokop/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys window windows'
+[debug] [35m[ADB][39m Found package: 'ru.alfabank.mobile.android' and fully qualified activity name : 'ru.alfabank.mobile.android.presentation.feature.splash.activity.SplashActivity'
+[debug] [35m[ADB][39m Incorrect package and activity. Retrying.
+[debug] [35m[ADB][39m Getting focused package and activity
+[debug] [35m[ADB][39m Running '/Users/dimaprokop/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys window windows'
+[debug] [35m[ADB][39m Found package: 'ru.alfabank.mobile.android' and fully qualified activity name : 'ru.alfabank.mobile.android.presentation.feature.signup.activity.SignUpBannerActivity'
+[debug] [35m[JSONWP Proxy][39m Proxying [GET /appium/device/pixel_ratio] to [GET http://localhost:8297/wd/hub/session/b126ca74-ba13-4a0a-969f-cc827ef9382c/appium/device/pixel_ratio] with body: {}
+[debug] [35m[JSONWP Proxy][39m Got response with status 200: "{\"sessionId\":\"b126ca74-ba13-4a0a-969f-cc827ef9382c\",\"status\":0,\"value\":3.5}"
+[debug] [35m[JSONWP Proxy][39m Proxying [GET /appium/device/system_bars] to [GET http://localhost:8297/wd/hub/session/b126ca74-ba13-4a0a-969f-cc827ef9382c/appium/device/system_bars] with body: {}
+[debug] [35m[JSONWP Proxy][39m Got response with status 200: "{\"sessionId\":\"b126ca74-ba13-4a0a-969f-cc827ef9382c\",\"status\":0,\"value\":{\"statusBar\":84}}"
+[debug] [35m[JSONWP Proxy][39m Proxying [GET /window/current/size] to [GET http://localhost:8297/wd/hub/session/b126ca74-ba13-4a0a-969f-cc827ef9382c/window/current/size] with body: {}
+[debug] [35m[JSONWP Proxy][39m Got response with status 200: "{\"sessionId\":\"b126ca74-ba13-4a0a-969f-cc827ef9382c\",\"status\":0,\"value\":{\"height\":2392,\"width\":1440}}"
+[35m[Appium][39m New AndroidUiautomator2Driver session created successfully, session 38e2fc50-b900-4e1d-8df2-fe52d8ef700d added to master session list
+[debug] [35m[BaseDriver][39m Event 'newSessionStarted' logged at 1532881126848 (19:18:46 GMT+0300 (MSK))
+[debug] [35m[MJSONWP][39m Responding to client with driver.createSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"app":"/Users/dimaprokop/Documents/am-ui-tests/src/test/resources/Alfa-Mobile.apk","clearSystemFiles":true,"newCommandTimeout":50,"appWaitActivity":"ru.alfabank.mobile.android.presentation.feature.signup.activity.SignUpBannerActivity","automationName":"UiAutomator2","autoGrantPermissions":true,"unicodeKeyboard":true,"udid":"emulator-5554","platformName":"Android","deviceName":"emulator-5554","resetKeyboard":true,"systemPort":8297},"app":"/Users/dimaprokop/Documents/am-ui-tests/src/test/resources/Alfa-Mobile.apk","clearSystemFiles":true,"newCommandTimeout":50,"appWaitActivity":"ru.alfabank.mobile.android.presentation.feature.signup.activity.SignUpBannerActivity","automationName":"UiAutomator2","autoGrantPermissions":true,"unicodeKeyboard":true,"udid":"emulator-5554","platformName":"Android","deviceName":"...
+[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m39965 ms - 1491[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/38e2fc50-b900-4e1d-8df2-fe52d8ef700d/timeouts[39m
+[35m[HTTP][39m [90m{"type":"implicit","ms":50000}[39m
+[debug] [35m[W3C][39m Bad parameters: BadParametersError: Parameters were incorrect. We wanted "W3C protocol expects any of script, pageLoad or implicit to be set" and you sent {"type":"implicit","ms":50000}
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/38e2fc50-b900-4e1d-8df2-fe52d8ef700d/timeouts [39m[33m400[39m [90m6 ms - 4292[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/38e2fc50-b900-4e1d-8df2-fe52d8ef700d/element[39m
+[35m[HTTP][39m [90m{"using":"id","value":"ru.alfabank.mobile.android:id/sign_up_registration"}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.findElement() with args: ["id","ru.alfabank.mobile.android:id/sign_up_registration","38e2fc50-b900-4e1d-8df2-fe52d8ef700d"]
+[debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] [35m[BaseDriver][39m Waiting up to 0 ms for condition
+[debug] [35m[JSONWP Proxy][39m Proxying [POST /element] to [POST http://localhost:8297/wd/hub/session/b126ca74-ba13-4a0a-969f-cc827ef9382c/element] with body: {"strategy":"id","selector":"ru.alfabank.mobile.android:id/sign_up_registration","context":"","multiple":false}
+[debug] [35m[JSONWP Proxy][39m Got response with status 200: {"sessionId":"b126ca74-ba13-4a0a-969f-cc827ef9382c","status":0,"value":{"ELEMENT":"6051f49c-02bb-40ed-a6ad-640b9d933dd7"}}
+[debug] [35m[MJSONWP][39m Responding to client with driver.findElement() result: {"ELEMENT":"6051f49c-02bb-40ed-a6ad-640b9d933dd7"}
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/38e2fc50-b900-4e1d-8df2-fe52d8ef700d/element [39m[32m200[39m [90m94 ms - 122[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/38e2fc50-b900-4e1d-8df2-fe52d8ef700d[39m
+[35m[HTTP][39m [90m{}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.getSession() with args: ["38e2fc50-b900-4e1d-8df2-fe52d8ef700d"]
+[debug] [35m[UiAutomator2][39m Getting session details from server to mix in
+[debug] [35m[JSONWP Proxy][39m Proxying [GET /] to [GET http://localhost:8297/wd/hub/session/b126ca74-ba13-4a0a-969f-cc827ef9382c] with body: {}
+[debug] [35m[JSONWP Proxy][39m Got response with status 200: "{\"sessionId\":\"b126ca74-ba13-4a0a-969f-cc827ef9382c\",\"status\":0,\"value\":{}}"
+[debug] [35m[MJSONWP][39m Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"app":"/Users/dimaprokop/Documents/am-ui-tests/src/test/resources/Alfa-Mobile.apk","clearSystemFiles":true,"newCommandTimeout":50,"appWaitActivity":"ru.alfabank.mobile.android.presentation.feature.signup.activity.SignUpBannerActivity","automationName":"UiAutomator2","autoGrantPermissions":true,"unicodeKeyboard":true,"udid":"emulator-5554","platformName":"Android","deviceName":"emulator-5554","resetKeyboard":true,"systemPort":8297},"app":"/Users/dimaprokop/Documents/am-ui-tests/src/test/resources/Alfa-Mobile.apk","clearSystemFiles":true,"newCommandTimeout":50,"appWaitActivity":"ru.alfabank.mobile.android.presentation.feature.signup.activity.SignUpBannerActivity","automationName":"UiAutomator2","autoGrantPermissions":true,"unicodeKeyboard":true,"udid":"emulator-5554","platformName":"Android","deviceName":"...
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/38e2fc50-b900-4e1d-8df2-fe52d8ef700d [39m[32m200[39m [90m28 ms - 1491[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/38e2fc50-b900-4e1d-8df2-fe52d8ef700d[39m
+[35m[HTTP][39m [90m{}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.getSession() with args: ["38e2fc50-b900-4e1d-8df2-fe52d8ef700d"]
+[debug] [35m[UiAutomator2][39m Getting session details from server to mix in
+[debug] [35m[JSONWP Proxy][39m Proxying [GET /] to [GET http://localhost:8297/wd/hub/session/b126ca74-ba13-4a0a-969f-cc827ef9382c] with body: {}
+[debug] [35m[JSONWP Proxy][39m Got response with status 200: "{\"sessionId\":\"b126ca74-ba13-4a0a-969f-cc827ef9382c\",\"status\":0,\"value\":{}}"
+[debug] [35m[MJSONWP][39m Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"app":"/Users/dimaprokop/Documents/am-ui-tests/src/test/resources/Alfa-Mobile.apk","clearSystemFiles":true,"newCommandTimeout":50,"appWaitActivity":"ru.alfabank.mobile.android.presentation.feature.signup.activity.SignUpBannerActivity","automationName":"UiAutomator2","autoGrantPermissions":true,"unicodeKeyboard":true,"udid":"emulator-5554","platformName":"Android","deviceName":"emulator-5554","resetKeyboard":true,"systemPort":8297},"app":"/Users/dimaprokop/Documents/am-ui-tests/src/test/resources/Alfa-Mobile.apk","clearSystemFiles":true,"newCommandTimeout":50,"appWaitActivity":"ru.alfabank.mobile.android.presentation.feature.signup.activity.SignUpBannerActivity","automationName":"UiAutomator2","autoGrantPermissions":true,"unicodeKeyboard":true,"udid":"emulator-5554","platformName":"Android","deviceName":"...
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/38e2fc50-b900-4e1d-8df2-fe52d8ef700d [39m[32m200[39m [90m34 ms - 1491[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/38e2fc50-b900-4e1d-8df2-fe52d8ef700d[39m
+[35m[HTTP][39m [90m{}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.getSession() with args: ["38e2fc50-b900-4e1d-8df2-fe52d8ef700d"]
+[debug] [35m[UiAutomator2][39m Getting session details from server to mix in
+[debug] [35m[JSONWP Proxy][39m Proxying [GET /] to [GET http://localhost:8297/wd/hub/session/b126ca74-ba13-4a0a-969f-cc827ef9382c] with body: {}
+[debug] [35m[JSONWP Proxy][39m Got response with status 200: "{\"sessionId\":\"b126ca74-ba13-4a0a-969f-cc827ef9382c\",\"status\":0,\"value\":{}}"
+[debug] [35m[MJSONWP][39m Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"app":"/Users/dimaprokop/Documents/am-ui-tests/src/test/resources/Alfa-Mobile.apk","clearSystemFiles":true,"newCommandTimeout":50,"appWaitActivity":"ru.alfabank.mobile.android.presentation.feature.signup.activity.SignUpBannerActivity","automationName":"UiAutomator2","autoGrantPermissions":true,"unicodeKeyboard":true,"udid":"emulator-5554","platformName":"Android","deviceName":"emulator-5554","resetKeyboard":true,"systemPort":8297},"app":"/Users/dimaprokop/Documents/am-ui-tests/src/test/resources/Alfa-Mobile.apk","clearSystemFiles":true,"newCommandTimeout":50,"appWaitActivity":"ru.alfabank.mobile.android.presentation.feature.signup.activity.SignUpBannerActivity","automationName":"UiAutomator2","autoGrantPermissions":true,"unicodeKeyboard":true,"udid":"emulator-5554","platformName":"Android","deviceName":"...
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/38e2fc50-b900-4e1d-8df2-fe52d8ef700d [39m[32m200[39m [90m20 ms - 1491[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/38e2fc50-b900-4e1d-8df2-fe52d8ef700d[39m
+[35m[HTTP][39m [90m{}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.getSession() with args: ["38e2fc50-b900-4e1d-8df2-fe52d8ef700d"]
+[debug] [35m[UiAutomator2][39m Getting session details from server to mix in
+[debug] [35m[JSONWP Proxy][39m Proxying [GET /] to [GET http://localhost:8297/wd/hub/session/b126ca74-ba13-4a0a-969f-cc827ef9382c] with body: {}
+[debug] [35m[JSONWP Proxy][39m Got response with status 200: "{\"sessionId\":\"b126ca74-ba13-4a0a-969f-cc827ef9382c\",\"status\":0,\"value\":{}}"
+[debug] [35m[MJSONWP][39m Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"app":"/Users/dimaprokop/Documents/am-ui-tests/src/test/resources/Alfa-Mobile.apk","clearSystemFiles":true,"newCommandTimeout":50,"appWaitActivity":"ru.alfabank.mobile.android.presentation.feature.signup.activity.SignUpBannerActivity","automationName":"UiAutomator2","autoGrantPermissions":true,"unicodeKeyboard":true,"udid":"emulator-5554","platformName":"Android","deviceName":"emulator-5554","resetKeyboard":true,"systemPort":8297},"app":"/Users/dimaprokop/Documents/am-ui-tests/src/test/resources/Alfa-Mobile.apk","clearSystemFiles":true,"newCommandTimeout":50,"appWaitActivity":"ru.alfabank.mobile.android.presentation.feature.signup.activity.SignUpBannerActivity","automationName":"UiAutomator2","autoGrantPermissions":true,"unicodeKeyboard":true,"udid":"emulator-5554","platformName":"Android","deviceName":"...
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/38e2fc50-b900-4e1d-8df2-fe52d8ef700d [39m[32m200[39m [90m19 ms - 1491[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/38e2fc50-b900-4e1d-8df2-fe52d8ef700d/appium/device/current_activity[39m
+[35m[HTTP][39m [90m{}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.getCurrentActivity() with args: ["38e2fc50-b900-4e1d-8df2-fe52d8ef700d"]
+[debug] [35m[ADB][39m Getting focused package and activity
+[debug] [35m[ADB][39m Running '/Users/dimaprokop/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys window windows'
+[debug] [35m[MJSONWP][39m Responding to client with driver.getCurrentActivity() result: ".presentation.feature.signup.activity.SignUpBannerActivity"
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/38e2fc50-b900-4e1d-8df2-fe52d8ef700d/appium/device/current_activity [39m[32m200[39m [90m86 ms - 132[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/38e2fc50-b900-4e1d-8df2-fe52d8ef700d/element[39m
+[35m[HTTP][39m [90m{"using":"id","value":"ru.alfabank.mobile.android:id/sign_up_dev_setting"}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.findElement() with args: ["id","ru.alfabank.mobile.android:id/sign_up_dev_setting","38e2fc50-b900-4e1d-8df2-fe52d8ef700d"]
+[debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] [35m[BaseDriver][39m Waiting up to 0 ms for condition
+[debug] [35m[JSONWP Proxy][39m Proxying [POST /element] to [POST http://localhost:8297/wd/hub/session/b126ca74-ba13-4a0a-969f-cc827ef9382c/element] with body: {"strategy":"id","selector":"ru.alfabank.mobile.android:id/sign_up_dev_setting","context":"","multiple":false}
+[debug] [35m[JSONWP Proxy][39m Got response with status 200: {"sessionId":"b126ca74-ba13-4a0a-969f-cc827ef9382c","status":0,"value":{"ELEMENT":"9012dee1-cc7d-41ba-a3b6-00c54734bea3"}}
+[debug] [35m[MJSONWP][39m Responding to client with driver.findElement() result: {"ELEMENT":"9012dee1-cc7d-41ba-a3b6-00c54734bea3"}
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/38e2fc50-b900-4e1d-8df2-fe52d8ef700d/element [39m[32m200[39m [90m35 ms - 122[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/38e2fc50-b900-4e1d-8df2-fe52d8ef700d[39m
+[35m[HTTP][39m [90m{}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.getSession() with args: ["38e2fc50-b900-4e1d-8df2-fe52d8ef700d"]
+[debug] [35m[UiAutomator2][39m Getting session details from server to mix in
+[debug] [35m[JSONWP Proxy][39m Proxying [GET /] to [GET http://localhost:8297/wd/hub/session/b126ca74-ba13-4a0a-969f-cc827ef9382c] with body: {}
+[debug] [35m[JSONWP Proxy][39m Got response with status 200: "{\"sessionId\":\"b126ca74-ba13-4a0a-969f-cc827ef9382c\",\"status\":0,\"value\":{}}"
+[debug] [35m[MJSONWP][39m Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"app":"/Users/dimaprokop/Documents/am-ui-tests/src/test/resources/Alfa-Mobile.apk","clearSystemFiles":true,"newCommandTimeout":50,"appWaitActivity":"ru.alfabank.mobile.android.presentation.feature.signup.activity.SignUpBannerActivity","automationName":"UiAutomator2","autoGrantPermissions":true,"unicodeKeyboard":true,"udid":"emulator-5554","platformName":"Android","deviceName":"emulator-5554","resetKeyboard":true,"systemPort":8297},"app":"/Users/dimaprokop/Documents/am-ui-tests/src/test/resources/Alfa-Mobile.apk","clearSystemFiles":true,"newCommandTimeout":50,"appWaitActivity":"ru.alfabank.mobile.android.presentation.feature.signup.activity.SignUpBannerActivity","automationName":"UiAutomator2","autoGrantPermissions":true,"unicodeKeyboard":true,"udid":"emulator-5554","platformName":"Android","deviceName":"...
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/38e2fc50-b900-4e1d-8df2-fe52d8ef700d [39m[32m200[39m [90m25 ms - 1491[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/38e2fc50-b900-4e1d-8df2-fe52d8ef700d[39m
+[35m[HTTP][39m [90m{}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.getSession() with args: ["38e2fc50-b900-4e1d-8df2-fe52d8ef700d"]
+[debug] [35m[UiAutomator2][39m Getting session details from server to mix in
+[debug] [35m[JSONWP Proxy][39m Proxying [GET /] to [GET http://localhost:8297/wd/hub/session/b126ca74-ba13-4a0a-969f-cc827ef9382c] with body: {}
+[debug] [35m[JSONWP Proxy][39m Got response with status 200: "{\"sessionId\":\"b126ca74-ba13-4a0a-969f-cc827ef9382c\",\"status\":0,\"value\":{}}"
+[debug] [35m[MJSONWP][39m Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"app":"/Users/dimaprokop/Documents/am-ui-tests/src/test/resources/Alfa-Mobile.apk","clearSystemFiles":true,"newCommandTimeout":50,"appWaitActivity":"ru.alfabank.mobile.android.presentation.feature.signup.activity.SignUpBannerActivity","automationName":"UiAutomator2","autoGrantPermissions":true,"unicodeKeyboard":true,"udid":"emulator-5554","platformName":"Android","deviceName":"emulator-5554","resetKeyboard":true,"systemPort":8297},"app":"/Users/dimaprokop/Documents/am-ui-tests/src/test/resources/Alfa-Mobile.apk","clearSystemFiles":true,"newCommandTimeout":50,"appWaitActivity":"ru.alfabank.mobile.android.presentation.feature.signup.activity.SignUpBannerActivity","automationName":"UiAutomator2","autoGrantPermissions":true,"unicodeKeyboard":true,"udid":"emulator-5554","platformName":"Android","deviceName":"...
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/38e2fc50-b900-4e1d-8df2-fe52d8ef700d [39m[32m200[39m [90m22 ms - 1491[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/38e2fc50-b900-4e1d-8df2-fe52d8ef700d[39m
+[35m[HTTP][39m [90m{}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.getSession() with args: ["38e2fc50-b900-4e1d-8df2-fe52d8ef700d"]
+[debug] [35m[UiAutomator2][39m Getting session details from server to mix in
+[debug] [35m[JSONWP Proxy][39m Proxying [GET /] to [GET http://localhost:8297/wd/hub/session/b126ca74-ba13-4a0a-969f-cc827ef9382c] with body: {}
+[debug] [35m[JSONWP Proxy][39m Got response with status 200: "{\"sessionId\":\"b126ca74-ba13-4a0a-969f-cc827ef9382c\",\"status\":0,\"value\":{}}"
+[debug] [35m[MJSONWP][39m Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"app":"/Users/dimaprokop/Documents/am-ui-tests/src/test/resources/Alfa-Mobile.apk","clearSystemFiles":true,"newCommandTimeout":50,"appWaitActivity":"ru.alfabank.mobile.android.presentation.feature.signup.activity.SignUpBannerActivity","automationName":"UiAutomator2","autoGrantPermissions":true,"unicodeKeyboard":true,"udid":"emulator-5554","platformName":"Android","deviceName":"emulator-5554","resetKeyboard":true,"systemPort":8297},"app":"/Users/dimaprokop/Documents/am-ui-tests/src/test/resources/Alfa-Mobile.apk","clearSystemFiles":true,"newCommandTimeout":50,"appWaitActivity":"ru.alfabank.mobile.android.presentation.feature.signup.activity.SignUpBannerActivity","automationName":"UiAutomator2","autoGrantPermissions":true,"unicodeKeyboard":true,"udid":"emulator-5554","platformName":"Android","deviceName":"...
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/38e2fc50-b900-4e1d-8df2-fe52d8ef700d [39m[32m200[39m [90m48 ms - 1491[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/38e2fc50-b900-4e1d-8df2-fe52d8ef700d[39m
+[35m[HTTP][39m [90m{}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.getSession() with args: ["38e2fc50-b900-4e1d-8df2-fe52d8ef700d"]
+[debug] [35m[UiAutomator2][39m Getting session details from server to mix in
+[debug] [35m[JSONWP Proxy][39m Proxying [GET /] to [GET http://localhost:8297/wd/hub/session/b126ca74-ba13-4a0a-969f-cc827ef9382c] with body: {}
+[debug] [35m[JSONWP Proxy][39m Got response with status 200: "{\"sessionId\":\"b126ca74-ba13-4a0a-969f-cc827ef9382c\",\"status\":0,\"value\":{}}"
+[debug] [35m[MJSONWP][39m Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"app":"/Users/dimaprokop/Documents/am-ui-tests/src/test/resources/Alfa-Mobile.apk","clearSystemFiles":true,"newCommandTimeout":50,"appWaitActivity":"ru.alfabank.mobile.android.presentation.feature.signup.activity.SignUpBannerActivity","automationName":"UiAutomator2","autoGrantPermissions":true,"unicodeKeyboard":true,"udid":"emulator-5554","platformName":"Android","deviceName":"emulator-5554","resetKeyboard":true,"systemPort":8297},"app":"/Users/dimaprokop/Documents/am-ui-tests/src/test/resources/Alfa-Mobile.apk","clearSystemFiles":true,"newCommandTimeout":50,"appWaitActivity":"ru.alfabank.mobile.android.presentation.feature.signup.activity.SignUpBannerActivity","automationName":"UiAutomator2","autoGrantPermissions":true,"unicodeKeyboard":true,"udid":"emulator-5554","platformName":"Android","deviceName":"...
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/38e2fc50-b900-4e1d-8df2-fe52d8ef700d [39m[32m200[39m [90m43 ms - 1491[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/38e2fc50-b900-4e1d-8df2-fe52d8ef700d/element/9012dee1-cc7d-41ba-a3b6-00c54734bea3/click[39m
+[35m[HTTP][39m [90m{"id":"9012dee1-cc7d-41ba-a3b6-00c54734bea3"}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.click() with args: ["9012dee1-cc7d-41ba-a3b6-00c54734bea3","38e2fc50-b900-4e1d-8df2-fe52d8ef700d"]
+[debug] [35m[JSONWP Proxy][39m Proxying [POST /element/9012dee1-cc7d-41ba-a3b6-00c54734bea3/click] to [POST http://localhost:8297/wd/hub/session/b126ca74-ba13-4a0a-969f-cc827ef9382c/element/9012dee1-cc7d-41ba-a3b6-00c54734bea3/click] with body: {"element":"9012dee1-cc7d-41ba-a3b6-00c54734bea3"}
+[debug] [35m[JSONWP Proxy][39m Got response with status 200: {"sessionId":"b126ca74-ba13-4a0a-969f-cc827ef9382c","status":0,"value":true}
+[debug] [35m[MJSONWP][39m Responding to client with driver.click() result: true
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/38e2fc50-b900-4e1d-8df2-fe52d8ef700d/element/9012dee1-cc7d-41ba-a3b6-00c54734bea3/click [39m[32m200[39m [90m48 ms - 76[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/38e2fc50-b900-4e1d-8df2-fe52d8ef700d/appium/device/current_activity[39m
+[35m[HTTP][39m [90m{}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.getCurrentActivity() with args: ["38e2fc50-b900-4e1d-8df2-fe52d8ef700d"]
+[debug] [35m[ADB][39m Getting focused package and activity
+[debug] [35m[ADB][39m Running '/Users/dimaprokop/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys window windows'
+[debug] [35m[MJSONWP][39m Responding to client with driver.getCurrentActivity() result: ".presentation.feature.settings.activity.SettingsActivity"
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/38e2fc50-b900-4e1d-8df2-fe52d8ef700d/appium/device/current_activity [39m[32m200[39m [90m166 ms - 130[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/38e2fc50-b900-4e1d-8df2-fe52d8ef700d/element[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@text='Включение сетевого логирования']"}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.findElement() with args: ["xpath","//*[@text='Включение сетевого логирования']","38e2fc50-b900-4e1d-8df2-fe52d8ef700d"]
+[debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] [35m[BaseDriver][39m Waiting up to 0 ms for condition
+[debug] [35m[JSONWP Proxy][39m Proxying [POST /element] to [POST http://localhost:8297/wd/hub/session/b126ca74-ba13-4a0a-969f-cc827ef9382c/element] with body: {"strategy":"xpath","selector":"//*[@text='Включение сетевого логирования']","context":"","multiple":false}
+[debug] [35m[JSONWP Proxy][39m Got response with status 200: {"sessionId":"b126ca74-ba13-4a0a-969f-cc827ef9382c","status":0,"value":{"ELEMENT":"0c8d7598-7b2f-495c-b7b7-b182e1d582cb"}}
+[debug] [35m[MJSONWP][39m Responding to client with driver.findElement() result: {"ELEMENT":"0c8d7598-7b2f-495c-b7b7-b182e1d582cb"}
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/38e2fc50-b900-4e1d-8df2-fe52d8ef700d/element [39m[32m200[39m [90m1065 ms - 122[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/38e2fc50-b900-4e1d-8df2-fe52d8ef700d[39m
+[35m[HTTP][39m [90m{}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.getSession() with args: ["38e2fc50-b900-4e1d-8df2-fe52d8ef700d"]
+[debug] [35m[UiAutomator2][39m Getting session details from server to mix in
+[debug] [35m[JSONWP Proxy][39m Proxying [GET /] to [GET http://localhost:8297/wd/hub/session/b126ca74-ba13-4a0a-969f-cc827ef9382c] with body: {}
+[debug] [35m[JSONWP Proxy][39m Got response with status 200: "{\"sessionId\":\"b126ca74-ba13-4a0a-969f-cc827ef9382c\",\"status\":0,\"value\":{}}"
+[debug] [35m[MJSONWP][39m Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"app":"/Users/dimaprokop/Documents/am-ui-tests/src/test/resources/Alfa-Mobile.apk","clearSystemFiles":true,"newCommandTimeout":50,"appWaitActivity":"ru.alfabank.mobile.android.presentation.feature.signup.activity.SignUpBannerActivity","automationName":"UiAutomator2","autoGrantPermissions":true,"unicodeKeyboard":true,"udid":"emulator-5554","platformName":"Android","deviceName":"emulator-5554","resetKeyboard":true,"systemPort":8297},"app":"/Users/dimaprokop/Documents/am-ui-tests/src/test/resources/Alfa-Mobile.apk","clearSystemFiles":true,"newCommandTimeout":50,"appWaitActivity":"ru.alfabank.mobile.android.presentation.feature.signup.activity.SignUpBannerActivity","automationName":"UiAutomator2","autoGrantPermissions":true,"unicodeKeyboard":true,"udid":"emulator-5554","platformName":"Android","deviceName":"...
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/38e2fc50-b900-4e1d-8df2-fe52d8ef700d [39m[32m200[39m [90m16 ms - 1491[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/38e2fc50-b900-4e1d-8df2-fe52d8ef700d[39m
+[35m[HTTP][39m [90m{}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.getSession() with args: ["38e2fc50-b900-4e1d-8df2-fe52d8ef700d"]
+[debug] [35m[UiAutomator2][39m Getting session details from server to mix in
+[debug] [35m[JSONWP Proxy][39m Proxying [GET /] to [GET http://localhost:8297/wd/hub/session/b126ca74-ba13-4a0a-969f-cc827ef9382c] with body: {}
+[debug] [35m[JSONWP Proxy][39m Got response with status 200: "{\"sessionId\":\"b126ca74-ba13-4a0a-969f-cc827ef9382c\",\"status\":0,\"value\":{}}"
+[debug] [35m[MJSONWP][39m Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"app":"/Users/dimaprokop/Documents/am-ui-tests/src/test/resources/Alfa-Mobile.apk","clearSystemFiles":true,"newCommandTimeout":50,"appWaitActivity":"ru.alfabank.mobile.android.presentation.feature.signup.activity.SignUpBannerActivity","automationName":"UiAutomator2","autoGrantPermissions":true,"unicodeKeyboard":true,"udid":"emulator-5554","platformName":"Android","deviceName":"emulator-5554","resetKeyboard":true,"systemPort":8297},"app":"/Users/dimaprokop/Documents/am-ui-tests/src/test/resources/Alfa-Mobile.apk","clearSystemFiles":true,"newCommandTimeout":50,"appWaitActivity":"ru.alfabank.mobile.android.presentation.feature.signup.activity.SignUpBannerActivity","automationName":"UiAutomator2","autoGrantPermissions":true,"unicodeKeyboard":true,"udid":"emulator-5554","platformName":"Android","deviceName":"...
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/38e2fc50-b900-4e1d-8df2-fe52d8ef700d [39m[32m200[39m [90m17 ms - 1491[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/38e2fc50-b900-4e1d-8df2-fe52d8ef700d[39m
+[35m[HTTP][39m [90m{}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.getSession() with args: ["38e2fc50-b900-4e1d-8df2-fe52d8ef700d"]
+[debug] [35m[UiAutomator2][39m Getting session details from server to mix in
+[debug] [35m[JSONWP Proxy][39m Proxying [GET /] to [GET http://localhost:8297/wd/hub/session/b126ca74-ba13-4a0a-969f-cc827ef9382c] with body: {}
+[debug] [35m[JSONWP Proxy][39m Got response with status 200: "{\"sessionId\":\"b126ca74-ba13-4a0a-969f-cc827ef9382c\",\"status\":0,\"value\":{}}"
+[debug] [35m[MJSONWP][39m Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"app":"/Users/dimaprokop/Documents/am-ui-tests/src/test/resources/Alfa-Mobile.apk","clearSystemFiles":true,"newCommandTimeout":50,"appWaitActivity":"ru.alfabank.mobile.android.presentation.feature.signup.activity.SignUpBannerActivity","automationName":"UiAutomator2","autoGrantPermissions":true,"unicodeKeyboard":true,"udid":"emulator-5554","platformName":"Android","deviceName":"emulator-5554","resetKeyboard":true,"systemPort":8297},"app":"/Users/dimaprokop/Documents/am-ui-tests/src/test/resources/Alfa-Mobile.apk","clearSystemFiles":true,"newCommandTimeout":50,"appWaitActivity":"ru.alfabank.mobile.android.presentation.feature.signup.activity.SignUpBannerActivity","automationName":"UiAutomator2","autoGrantPermissions":true,"unicodeKeyboard":true,"udid":"emulator-5554","platformName":"Android","deviceName":"...
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/38e2fc50-b900-4e1d-8df2-fe52d8ef700d [39m[32m200[39m [90m12 ms - 1491[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/38e2fc50-b900-4e1d-8df2-fe52d8ef700d[39m
+[35m[HTTP][39m [90m{}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.getSession() with args: ["38e2fc50-b900-4e1d-8df2-fe52d8ef700d"]
+[debug] [35m[UiAutomator2][39m Getting session details from server to mix in
+[debug] [35m[JSONWP Proxy][39m Proxying [GET /] to [GET http://localhost:8297/wd/hub/session/b126ca74-ba13-4a0a-969f-cc827ef9382c] with body: {}
+[debug] [35m[JSONWP Proxy][39m Got response with status 200: "{\"sessionId\":\"b126ca74-ba13-4a0a-969f-cc827ef9382c\",\"status\":0,\"value\":{}}"
+[debug] [35m[MJSONWP][39m Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"app":"/Users/dimaprokop/Documents/am-ui-tests/src/test/resources/Alfa-Mobile.apk","clearSystemFiles":true,"newCommandTimeout":50,"appWaitActivity":"ru.alfabank.mobile.android.presentation.feature.signup.activity.SignUpBannerActivity","automationName":"UiAutomator2","autoGrantPermissions":true,"unicodeKeyboard":true,"udid":"emulator-5554","platformName":"Android","deviceName":"emulator-5554","resetKeyboard":true,"systemPort":8297},"app":"/Users/dimaprokop/Documents/am-ui-tests/src/test/resources/Alfa-Mobile.apk","clearSystemFiles":true,"newCommandTimeout":50,"appWaitActivity":"ru.alfabank.mobile.android.presentation.feature.signup.activity.SignUpBannerActivity","automationName":"UiAutomator2","autoGrantPermissions":true,"unicodeKeyboard":true,"udid":"emulator-5554","platformName":"Android","deviceName":"...
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/38e2fc50-b900-4e1d-8df2-fe52d8ef700d [39m[32m200[39m [90m15 ms - 1491[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/38e2fc50-b900-4e1d-8df2-fe52d8ef700d/element/0c8d7598-7b2f-495c-b7b7-b182e1d582cb/click[39m
+[35m[HTTP][39m [90m{"id":"0c8d7598-7b2f-495c-b7b7-b182e1d582cb"}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.click() with args: ["0c8d7598-7b2f-495c-b7b7-b182e1d582cb","38e2fc50-b900-4e1d-8df2-fe52d8ef700d"]
+[debug] [35m[JSONWP Proxy][39m Proxying [POST /element/0c8d7598-7b2f-495c-b7b7-b182e1d582cb/click] to [POST http://localhost:8297/wd/hub/session/b126ca74-ba13-4a0a-969f-cc827ef9382c/element/0c8d7598-7b2f-495c-b7b7-b182e1d582cb/click] with body: {"element":"0c8d7598-7b2f-495c-b7b7-b182e1d582cb"}
+[debug] [35m[JSONWP Proxy][39m Got response with status 200: {"sessionId":"b126ca74-ba13-4a0a-969f-cc827ef9382c","status":0,"value":true}
+[debug] [35m[MJSONWP][39m Responding to client with driver.click() result: true
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/38e2fc50-b900-4e1d-8df2-fe52d8ef700d/element/0c8d7598-7b2f-495c-b7b7-b182e1d582cb/click [39m[32m200[39m [90m33 ms - 76[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/38e2fc50-b900-4e1d-8df2-fe52d8ef700d/appium/device/current_activity[39m
+[35m[HTTP][39m [90m{}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.getCurrentActivity() with args: ["38e2fc50-b900-4e1d-8df2-fe52d8ef700d"]
+[debug] [35m[ADB][39m Getting focused package and activity
+[debug] [35m[ADB][39m Running '/Users/dimaprokop/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys window windows'
+[debug] [35m[MJSONWP][39m Responding to client with driver.getCurrentActivity() result: ".presentation.feature.settings.activity.SettingsActivity"
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/38e2fc50-b900-4e1d-8df2-fe52d8ef700d/appium/device/current_activity [39m[32m200[39m [90m64 ms - 130[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/38e2fc50-b900-4e1d-8df2-fe52d8ef700d/element[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@text='Включить тестовые сервера']"}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.findElement() with args: ["xpath","//*[@text='Включить тестовые сервера']","38e2fc50-b900-4e1d-8df2-fe52d8ef700d"]
+[debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] [35m[BaseDriver][39m Waiting up to 0 ms for condition
+[debug] [35m[JSONWP Proxy][39m Proxying [POST /element] to [POST http://localhost:8297/wd/hub/session/b126ca74-ba13-4a0a-969f-cc827ef9382c/element] with body: {"strategy":"xpath","selector":"//*[@text='Включить тестовые сервера']","context":"","multiple":false}
+[debug] [35m[JSONWP Proxy][39m Got response with status 200: {"sessionId":"b126ca74-ba13-4a0a-969f-cc827ef9382c","status":0,"value":{"ELEMENT":"22e3b3d2-300c-40a8-b4a8-f385e5ecc9fc"}}
+[debug] [35m[MJSONWP][39m Responding to client with driver.findElement() result: {"ELEMENT":"22e3b3d2-300c-40a8-b4a8-f385e5ecc9fc"}
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/38e2fc50-b900-4e1d-8df2-fe52d8ef700d/element [39m[32m200[39m [90m624 ms - 122[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/38e2fc50-b900-4e1d-8df2-fe52d8ef700d[39m
+[35m[HTTP][39m [90m{}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.getSession() with args: ["38e2fc50-b900-4e1d-8df2-fe52d8ef700d"]
+[debug] [35m[UiAutomator2][39m Getting session details from server to mix in
+[debug] [35m[JSONWP Proxy][39m Proxying [GET /] to [GET http://localhost:8297/wd/hub/session/b126ca74-ba13-4a0a-969f-cc827ef9382c] with body: {}
+[debug] [35m[JSONWP Proxy][39m Got response with status 200: "{\"sessionId\":\"b126ca74-ba13-4a0a-969f-cc827ef9382c\",\"status\":0,\"value\":{}}"
+[debug] [35m[MJSONWP][39m Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"app":"/Users/dimaprokop/Documents/am-ui-tests/src/test/resources/Alfa-Mobile.apk","clearSystemFiles":true,"newCommandTimeout":50,"appWaitActivity":"ru.alfabank.mobile.android.presentation.feature.signup.activity.SignUpBannerActivity","automationName":"UiAutomator2","autoGrantPermissions":true,"unicodeKeyboard":true,"udid":"emulator-5554","platformName":"Android","deviceName":"emulator-5554","resetKeyboard":true,"systemPort":8297},"app":"/Users/dimaprokop/Documents/am-ui-tests/src/test/resources/Alfa-Mobile.apk","clearSystemFiles":true,"newCommandTimeout":50,"appWaitActivity":"ru.alfabank.mobile.android.presentation.feature.signup.activity.SignUpBannerActivity","automationName":"UiAutomator2","autoGrantPermissions":true,"unicodeKeyboard":true,"udid":"emulator-5554","platformName":"Android","deviceName":"...
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/38e2fc50-b900-4e1d-8df2-fe52d8ef700d [39m[32m200[39m [90m21 ms - 1491[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/38e2fc50-b900-4e1d-8df2-fe52d8ef700d[39m
+[35m[HTTP][39m [90m{}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.getSession() with args: ["38e2fc50-b900-4e1d-8df2-fe52d8ef700d"]
+[debug] [35m[UiAutomator2][39m Getting session details from server to mix in
+[debug] [35m[JSONWP Proxy][39m Proxying [GET /] to [GET http://localhost:8297/wd/hub/session/b126ca74-ba13-4a0a-969f-cc827ef9382c] with body: {}
+[debug] [35m[JSONWP Proxy][39m Got response with status 200: "{\"sessionId\":\"b126ca74-ba13-4a0a-969f-cc827ef9382c\",\"status\":0,\"value\":{}}"
+[debug] [35m[MJSONWP][39m Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"app":"/Users/dimaprokop/Documents/am-ui-tests/src/test/resources/Alfa-Mobile.apk","clearSystemFiles":true,"newCommandTimeout":50,"appWaitActivity":"ru.alfabank.mobile.android.presentation.feature.signup.activity.SignUpBannerActivity","automationName":"UiAutomator2","autoGrantPermissions":true,"unicodeKeyboard":true,"udid":"emulator-5554","platformName":"Android","deviceName":"emulator-5554","resetKeyboard":true,"systemPort":8297},"app":"/Users/dimaprokop/Documents/am-ui-tests/src/test/resources/Alfa-Mobile.apk","clearSystemFiles":true,"newCommandTimeout":50,"appWaitActivity":"ru.alfabank.mobile.android.presentation.feature.signup.activity.SignUpBannerActivity","automationName":"UiAutomator2","autoGrantPermissions":true,"unicodeKeyboard":true,"udid":"emulator-5554","platformName":"Android","deviceName":"...
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/38e2fc50-b900-4e1d-8df2-fe52d8ef700d [39m[32m200[39m [90m15 ms - 1491[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/38e2fc50-b900-4e1d-8df2-fe52d8ef700d[39m
+[35m[HTTP][39m [90m{}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.getSession() with args: ["38e2fc50-b900-4e1d-8df2-fe52d8ef700d"]
+[debug] [35m[UiAutomator2][39m Getting session details from server to mix in
+[debug] [35m[JSONWP Proxy][39m Proxying [GET /] to [GET http://localhost:8297/wd/hub/session/b126ca74-ba13-4a0a-969f-cc827ef9382c] with body: {}
+[debug] [35m[JSONWP Proxy][39m Got response with status 200: "{\"sessionId\":\"b126ca74-ba13-4a0a-969f-cc827ef9382c\",\"status\":0,\"value\":{}}"
+[debug] [35m[MJSONWP][39m Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"app":"/Users/dimaprokop/Documents/am-ui-tests/src/test/resources/Alfa-Mobile.apk","clearSystemFiles":true,"newCommandTimeout":50,"appWaitActivity":"ru.alfabank.mobile.android.presentation.feature.signup.activity.SignUpBannerActivity","automationName":"UiAutomator2","autoGrantPermissions":true,"unicodeKeyboard":true,"udid":"emulator-5554","platformName":"Android","deviceName":"emulator-5554","resetKeyboard":true,"systemPort":8297},"app":"/Users/dimaprokop/Documents/am-ui-tests/src/test/resources/Alfa-Mobile.apk","clearSystemFiles":true,"newCommandTimeout":50,"appWaitActivity":"ru.alfabank.mobile.android.presentation.feature.signup.activity.SignUpBannerActivity","automationName":"UiAutomator2","autoGrantPermissions":true,"unicodeKeyboard":true,"udid":"emulator-5554","platformName":"Android","deviceName":"...
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/38e2fc50-b900-4e1d-8df2-fe52d8ef700d [39m[32m200[39m [90m10 ms - 1491[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/38e2fc50-b900-4e1d-8df2-fe52d8ef700d[39m
+[35m[HTTP][39m [90m{}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.getSession() with args: ["38e2fc50-b900-4e1d-8df2-fe52d8ef700d"]
+[debug] [35m[UiAutomator2][39m Getting session details from server to mix in
+[debug] [35m[JSONWP Proxy][39m Proxying [GET /] to [GET http://localhost:8297/wd/hub/session/b126ca74-ba13-4a0a-969f-cc827ef9382c] with body: {}
+[debug] [35m[JSONWP Proxy][39m Got response with status 200: "{\"sessionId\":\"b126ca74-ba13-4a0a-969f-cc827ef9382c\",\"status\":0,\"value\":{}}"
+[debug] [35m[MJSONWP][39m Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"app":"/Users/dimaprokop/Documents/am-ui-tests/src/test/resources/Alfa-Mobile.apk","clearSystemFiles":true,"newCommandTimeout":50,"appWaitActivity":"ru.alfabank.mobile.android.presentation.feature.signup.activity.SignUpBannerActivity","automationName":"UiAutomator2","autoGrantPermissions":true,"unicodeKeyboard":true,"udid":"emulator-5554","platformName":"Android","deviceName":"emulator-5554","resetKeyboard":true,"systemPort":8297},"app":"/Users/dimaprokop/Documents/am-ui-tests/src/test/resources/Alfa-Mobile.apk","clearSystemFiles":true,"newCommandTimeout":50,"appWaitActivity":"ru.alfabank.mobile.android.presentation.feature.signup.activity.SignUpBannerActivity","automationName":"UiAutomator2","autoGrantPermissions":true,"unicodeKeyboard":true,"udid":"emulator-5554","platformName":"Android","deviceName":"...
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/38e2fc50-b900-4e1d-8df2-fe52d8ef700d [39m[32m200[39m [90m14 ms - 1491[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/38e2fc50-b900-4e1d-8df2-fe52d8ef700d/element/22e3b3d2-300c-40a8-b4a8-f385e5ecc9fc/click[39m
+[35m[HTTP][39m [90m{"id":"22e3b3d2-300c-40a8-b4a8-f385e5ecc9fc"}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.click() with args: ["22e3b3d2-300c-40a8-b4a8-f385e5ecc9fc","38e2fc50-b900-4e1d-8df2-fe52d8ef700d"]
+[debug] [35m[JSONWP Proxy][39m Proxying [POST /element/22e3b3d2-300c-40a8-b4a8-f385e5ecc9fc/click] to [POST http://localhost:8297/wd/hub/session/b126ca74-ba13-4a0a-969f-cc827ef9382c/element/22e3b3d2-300c-40a8-b4a8-f385e5ecc9fc/click] with body: {"element":"22e3b3d2-300c-40a8-b4a8-f385e5ecc9fc"}
+[debug] [35m[JSONWP Proxy][39m Got response with status 200: {"sessionId":"b126ca74-ba13-4a0a-969f-cc827ef9382c","status":0,"value":true}
+[debug] [35m[MJSONWP][39m Responding to client with driver.click() result: true
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/38e2fc50-b900-4e1d-8df2-fe52d8ef700d/element/22e3b3d2-300c-40a8-b4a8-f385e5ecc9fc/click [39m[32m200[39m [90m28 ms - 76[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/38e2fc50-b900-4e1d-8df2-fe52d8ef700d/appium/device/current_activity[39m
+[35m[HTTP][39m [90m{}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.getCurrentActivity() with args: ["38e2fc50-b900-4e1d-8df2-fe52d8ef700d"]
+[debug] [35m[ADB][39m Getting focused package and activity
+[debug] [35m[ADB][39m Running '/Users/dimaprokop/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys window windows'
+[debug] [35m[MJSONWP][39m Responding to client with driver.getCurrentActivity() result: ".presentation.feature.settings.activity.SettingsActivity"
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/38e2fc50-b900-4e1d-8df2-fe52d8ef700d/appium/device/current_activity [39m[32m200[39m [90m78 ms - 130[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/38e2fc50-b900-4e1d-8df2-fe52d8ef700d/element[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@text='Быстрая авторизация']"}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.findElement() with args: ["xpath","//*[@text='Быстрая авторизация']","38e2fc50-b900-4e1d-8df2-fe52d8ef700d"]
+[debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] [35m[BaseDriver][39m Waiting up to 0 ms for condition
+[debug] [35m[JSONWP Proxy][39m Proxying [POST /element] to [POST http://localhost:8297/wd/hub/session/b126ca74-ba13-4a0a-969f-cc827ef9382c/element] with body: {"strategy":"xpath","selector":"//*[@text='Быстрая авторизация']","context":"","multiple":false}
+[debug] [35m[JSONWP Proxy][39m Got response with status 200: {"sessionId":"b126ca74-ba13-4a0a-969f-cc827ef9382c","status":0,"value":{"ELEMENT":"fed6ea05-ca5c-4372-a380-286b7b6084d8"}}
+[debug] [35m[MJSONWP][39m Responding to client with driver.findElement() result: {"ELEMENT":"fed6ea05-ca5c-4372-a380-286b7b6084d8"}
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/38e2fc50-b900-4e1d-8df2-fe52d8ef700d/element [39m[32m200[39m [90m570 ms - 122[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/38e2fc50-b900-4e1d-8df2-fe52d8ef700d[39m
+[35m[HTTP][39m [90m{}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.getSession() with args: ["38e2fc50-b900-4e1d-8df2-fe52d8ef700d"]
+[debug] [35m[UiAutomator2][39m Getting session details from server to mix in
+[debug] [35m[JSONWP Proxy][39m Proxying [GET /] to [GET http://localhost:8297/wd/hub/session/b126ca74-ba13-4a0a-969f-cc827ef9382c] with body: {}
+[debug] [35m[JSONWP Proxy][39m Got response with status 200: "{\"sessionId\":\"b126ca74-ba13-4a0a-969f-cc827ef9382c\",\"status\":0,\"value\":{}}"
+[debug] [35m[MJSONWP][39m Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"app":"/Users/dimaprokop/Documents/am-ui-tests/src/test/resources/Alfa-Mobile.apk","clearSystemFiles":true,"newCommandTimeout":50,"appWaitActivity":"ru.alfabank.mobile.android.presentation.feature.signup.activity.SignUpBannerActivity","automationName":"UiAutomator2","autoGrantPermissions":true,"unicodeKeyboard":true,"udid":"emulator-5554","platformName":"Android","deviceName":"emulator-5554","resetKeyboard":true,"systemPort":8297},"app":"/Users/dimaprokop/Documents/am-ui-tests/src/test/resources/Alfa-Mobile.apk","clearSystemFiles":true,"newCommandTimeout":50,"appWaitActivity":"ru.alfabank.mobile.android.presentation.feature.signup.activity.SignUpBannerActivity","automationName":"UiAutomator2","autoGrantPermissions":true,"unicodeKeyboard":true,"udid":"emulator-5554","platformName":"Android","deviceName":"...
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/38e2fc50-b900-4e1d-8df2-fe52d8ef700d [39m[32m200[39m [90m16 ms - 1491[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/38e2fc50-b900-4e1d-8df2-fe52d8ef700d[39m
+[35m[HTTP][39m [90m{}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.getSession() with args: ["38e2fc50-b900-4e1d-8df2-fe52d8ef700d"]
+[debug] [35m[UiAutomator2][39m Getting session details from server to mix in
+[debug] [35m[JSONWP Proxy][39m Proxying [GET /] to [GET http://localhost:8297/wd/hub/session/b126ca74-ba13-4a0a-969f-cc827ef9382c] with body: {}
+[debug] [35m[JSONWP Proxy][39m Got response with status 200: "{\"sessionId\":\"b126ca74-ba13-4a0a-969f-cc827ef9382c\",\"status\":0,\"value\":{}}"
+[debug] [35m[MJSONWP][39m Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"app":"/Users/dimaprokop/Documents/am-ui-tests/src/test/resources/Alfa-Mobile.apk","clearSystemFiles":true,"newCommandTimeout":50,"appWaitActivity":"ru.alfabank.mobile.android.presentation.feature.signup.activity.SignUpBannerActivity","automationName":"UiAutomator2","autoGrantPermissions":true,"unicodeKeyboard":true,"udid":"emulator-5554","platformName":"Android","deviceName":"emulator-5554","resetKeyboard":true,"systemPort":8297},"app":"/Users/dimaprokop/Documents/am-ui-tests/src/test/resources/Alfa-Mobile.apk","clearSystemFiles":true,"newCommandTimeout":50,"appWaitActivity":"ru.alfabank.mobile.android.presentation.feature.signup.activity.SignUpBannerActivity","automationName":"UiAutomator2","autoGrantPermissions":true,"unicodeKeyboard":true,"udid":"emulator-5554","platformName":"Android","deviceName":"...
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/38e2fc50-b900-4e1d-8df2-fe52d8ef700d [39m[32m200[39m [90m13 ms - 1491[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/38e2fc50-b900-4e1d-8df2-fe52d8ef700d[39m
+[35m[HTTP][39m [90m{}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.getSession() with args: ["38e2fc50-b900-4e1d-8df2-fe52d8ef700d"]
+[debug] [35m[UiAutomator2][39m Getting session details from server to mix in
+[debug] [35m[JSONWP Proxy][39m Proxying [GET /] to [GET http://localhost:8297/wd/hub/session/b126ca74-ba13-4a0a-969f-cc827ef9382c] with body: {}
+[debug] [35m[JSONWP Proxy][39m Got response with status 200: "{\"sessionId\":\"b126ca74-ba13-4a0a-969f-cc827ef9382c\",\"status\":0,\"value\":{}}"
+[debug] [35m[MJSONWP][39m Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"app":"/Users/dimaprokop/Documents/am-ui-tests/src/test/resources/Alfa-Mobile.apk","clearSystemFiles":true,"newCommandTimeout":50,"appWaitActivity":"ru.alfabank.mobile.android.presentation.feature.signup.activity.SignUpBannerActivity","automationName":"UiAutomator2","autoGrantPermissions":true,"unicodeKeyboard":true,"udid":"emulator-5554","platformName":"Android","deviceName":"emulator-5554","resetKeyboard":true,"systemPort":8297},"app":"/Users/dimaprokop/Documents/am-ui-tests/src/test/resources/Alfa-Mobile.apk","clearSystemFiles":true,"newCommandTimeout":50,"appWaitActivity":"ru.alfabank.mobile.android.presentation.feature.signup.activity.SignUpBannerActivity","automationName":"UiAutomator2","autoGrantPermissions":true,"unicodeKeyboard":true,"udid":"emulator-5554","platformName":"Android","deviceName":"...
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/38e2fc50-b900-4e1d-8df2-fe52d8ef700d [39m[32m200[39m [90m15 ms - 1491[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/38e2fc50-b900-4e1d-8df2-fe52d8ef700d[39m
+[35m[HTTP][39m [90m{}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.getSession() with args: ["38e2fc50-b900-4e1d-8df2-fe52d8ef700d"]
+[debug] [35m[UiAutomator2][39m Getting session details from server to mix in
+[debug] [35m[JSONWP Proxy][39m Proxying [GET /] to [GET http://localhost:8297/wd/hub/session/b126ca74-ba13-4a0a-969f-cc827ef9382c] with body: {}
+[debug] [35m[JSONWP Proxy][39m Got response with status 200: "{\"sessionId\":\"b126ca74-ba13-4a0a-969f-cc827ef9382c\",\"status\":0,\"value\":{}}"
+[debug] [35m[MJSONWP][39m Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"app":"/Users/dimaprokop/Documents/am-ui-tests/src/test/resources/Alfa-Mobile.apk","clearSystemFiles":true,"newCommandTimeout":50,"appWaitActivity":"ru.alfabank.mobile.android.presentation.feature.signup.activity.SignUpBannerActivity","automationName":"UiAutomator2","autoGrantPermissions":true,"unicodeKeyboard":true,"udid":"emulator-5554","platformName":"Android","deviceName":"emulator-5554","resetKeyboard":true,"systemPort":8297},"app":"/Users/dimaprokop/Documents/am-ui-tests/src/test/resources/Alfa-Mobile.apk","clearSystemFiles":true,"newCommandTimeout":50,"appWaitActivity":"ru.alfabank.mobile.android.presentation.feature.signup.activity.SignUpBannerActivity","automationName":"UiAutomator2","autoGrantPermissions":true,"unicodeKeyboard":true,"udid":"emulator-5554","platformName":"Android","deviceName":"...
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/38e2fc50-b900-4e1d-8df2-fe52d8ef700d [39m[32m200[39m [90m12 ms - 1491[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/38e2fc50-b900-4e1d-8df2-fe52d8ef700d/element/fed6ea05-ca5c-4372-a380-286b7b6084d8/click[39m
+[35m[HTTP][39m [90m{"id":"fed6ea05-ca5c-4372-a380-286b7b6084d8"}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.click() with args: ["fed6ea05-ca5c-4372-a380-286b7b6084d8","38e2fc50-b900-4e1d-8df2-fe52d8ef700d"]
+[debug] [35m[JSONWP Proxy][39m Proxying [POST /element/fed6ea05-ca5c-4372-a380-286b7b6084d8/click] to [POST http://localhost:8297/wd/hub/session/b126ca74-ba13-4a0a-969f-cc827ef9382c/element/fed6ea05-ca5c-4372-a380-286b7b6084d8/click] with body: {"element":"fed6ea05-ca5c-4372-a380-286b7b6084d8"}
+[debug] [35m[JSONWP Proxy][39m Got response with status 200: {"sessionId":"b126ca74-ba13-4a0a-969f-cc827ef9382c","status":0,"value":true}
+[debug] [35m[MJSONWP][39m Responding to client with driver.click() result: true
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/38e2fc50-b900-4e1d-8df2-fe52d8ef700d/element/fed6ea05-ca5c-4372-a380-286b7b6084d8/click [39m[32m200[39m [90m28 ms - 76[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/38e2fc50-b900-4e1d-8df2-fe52d8ef700d/element[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[contains(@name, 'Логин') or contains(@text,'Логин') or contains(@content-desc,'Логин')]"}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.findElement() with args: ["xpath","//*[contains(@name, 'Логин') or contains(@text,'Логин') or contains(@content-desc,'Логин')]","38e2fc50-b900-4e1d-8df2-fe52d8ef700d"]
+[debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] [35m[BaseDriver][39m Waiting up to 0 ms for condition
+[debug] [35m[JSONWP Proxy][39m Proxying [POST /element] to [POST http://localhost:8297/wd/hub/session/b126ca74-ba13-4a0a-969f-cc827ef9382c/element] with body: {"strategy":"xpath","selector":"//*[contains(@name, 'Логин') or contains(@text,'Логин') or contains(@content-desc,'Логин')]","context":"","multiple":false}
+[debug] [35m[MJSONWP][39m Matched JSONWP error code 7 to NoSuchElementError
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/38e2fc50-b900-4e1d-8df2-fe52d8ef700d/element [39m[31m500[39m [90m130 ms - 164[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/38e2fc50-b900-4e1d-8df2-fe52d8ef700d/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.getScreenshot() with args: ["38e2fc50-b900-4e1d-8df2-fe52d8ef700d"]
+[debug] [35m[JSONWP Proxy][39m Proxying [GET /screenshot] to [GET http://localhost:8297/wd/hub/session/b126ca74-ba13-4a0a-969f-cc827ef9382c/screenshot] with no body
+[debug] [35m[JSONWP Proxy][39m Got response with status 200: "{\"sessionId\":\"b126ca74-ba13-4a0a-969f-cc827ef9382c\",\"status\":0,\"value\":\"iVBORw0KGgoAAAANSUhEUgAABaAAAAoACAIAAADIlhKYAAAAA3NCSVQICAjb4U\\/gAAAgAElEQVR4\\nnOzdd3xTVR\\/H8ZvVBbTsYdl7DxmyQTbI3sgUAZUhKFNAkI3sDcoUUAQFGSLIXrJnsQiUTdmjdNCR\\n+fxRnvQ2TdMkzbrt5\\/3ij56Te8\\/9Jb0Nzbf3niPzyV1aAAAAAAAAkDK5uwsAAAAAAABILQIOAAAA\\nAAAgeQQcAAAAAABA8gg4AAAAAACA5BFwAAAAAAAAySPgAAAAAAAAkkfAAQAAAAAAJI+AAwAAAAAA\\nSB4BBwAAAAAAkDwCDgAAAAAAIHkEHAAAAAAAQPIIOAAAAAAAgOQRcAAAAAAAAMkj4AAAAAAAAJJH\\nwAEAAAAAACRP6e4CAAAAAACw0+RvhlWuWNb67bft+nvbn\\/vC3oQ7ryS4i2QCDh9v797d2i+YMd7u\\nEWLj4g4ePTVv6erLV69Fx8Q6sDYAAAAA6UeAf6byZUqWL1Myc0CmAP9MFcqWNLvZlX+vh0dEvgmP\\nDAq+HhR8PTwi0sV1ul75MiWDgq+7+KBVKpX7sE5167e\\/HnJnz4FjYQIBRxokmYDj056dJ44ekpoR\\nfLy9P2pSv3H9WvOWrZ69aCUZBwAAAAArlS9TslWzBuXLlKxbs1rmgEzW7FK3ZjVx80145LGTZ4+d\\nPHf81DnXpwAuUL5MyXyBudPkU4NUSCPg6Nml7ZwpYxwylJeX6uuBn+4\\/\\/M\\/JsxcdMiAAAACAtKpl\\nswatmzVs1ayhlaGGBZkDMrVu3rB184aCILwJj9y19+DOvQf\\/3HvIEWW6X3y64e4qkN55esDh4+39\\nac\\/Ojko34nl5qb4e9CkBBwAAAACz6tas2qNzW4fkGmZlDsjU...
+[debug] [35m[MJSONWP][39m Responding to client with driver.getScreenshot() result: "iVBORw0KGgoAAAANSUhEUgAABaAAAAoACAIAAADIlhKYAAAAA3NCSVQICAjb4U/gAAAgAElEQVR4\nnOzdd3xTVR/H8ZvVBbTsYdl7DxmyQTbI3sgUAZUhKFNAkI3sDcoUUAQFGSLIXrJnsQiUTdmjdNCR\n+fxRnvQ2TdMkzbrt5/3ij56Te8/9Jb0Nzbf3niPzyV1aAAAAAAAAkDK5uwsAAAAAAABILQIOAAAA\nAAAgeQQcAAAAAABA8gg4AAAAAACA5BFwAAAAAAAAySPgAAAAAAAAkkfAAQAAAAAAJI+AAwAAAAAA\nSB4BBwAAAAAAkDwCDgAAAAAAIHkEHAAAAAAAQPIIOAAAAAAAgOQRcAAAAAAAAMkj4AAAAAAAAJJH\nwAEAAAAAACRP6e4CAAAAAACw0+RvhlWuWNb67bft+nvbn/vC3oQ7ryS4i2QCDh9v797d2i+YMd7u\nEWLj4g4ePTVv6erLV69Fx8Q6sDYAAAAA6UeAf6byZUqWL1Myc0CmAP9MFcqWNLvZlX+vh0dEvgmP\nDAq+HhR8PTwi0sV1ul75MiWDgq+7+KBVKpX7sE5167e/HnJnz4FjYQIBRxokmYDj056dJ44ekpoR\nfLy9P2pSv3H9WvOWrZ69aCUZBwAAAAArlS9TslWzBuXLlKxbs1rmgEzW7FK3ZjVx80145LGTZ4+d\nPHf81DnXpwAuUL5MyXyBudPkU4NUSCPg6Nml7ZwpYxwylJeX6uuBn+4//M/JsxcdMiAAAACAtKpl\nswatmzVs1ayhlaGGBZkDMrVu3rB184aCILwJj9y19+DOvQf/3HvIEWW6X3y64e4qkN55esDh4+39\nac/Ojko34nl5qb4e9CkBBwAAAACz6tas2qNzW4fkGmZlDsjUs0vbnl3axicdG7dsP3bynDMO5Bqk\nG/AQMp/cpd1dgyWf9ek2ZdxXmTJmcOywsXFxWQq+79gxAQAAAEhdj85txo8YVCBfoIuPe//ho6lz\nlm7css...
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/38e2fc50-b900-4e1d-8df2-fe52d8ef700d/screenshot [39m[32m200[39m [90m425 ms - 211000[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/38e2fc50-b900-4e1d-8df2-fe52d8ef700d/element[39m
+[35m[HTTP][39m [90m{"using":"id","value":"ru.alfabank.mobile.android:id/banking_main_recycler"}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.findElement() with args: ["id","ru.alfabank.mobile.android:id/banking_main_recycler","38e2fc50-b900-4e1d-8df2-fe52d8ef700d"]
+[debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] [35m[BaseDriver][39m Waiting up to 0 ms for condition
+[debug] [35m[JSONWP Proxy][39m Proxying [POST /element] to [POST http://localhost:8297/wd/hub/session/b126ca74-ba13-4a0a-969f-cc827ef9382c/element] with body: {"strategy":"id","selector":"ru.alfabank.mobile.android:id/banking_main_recycler","context":"","multiple":false}
+[debug] [35m[MJSONWP][39m Matched JSONWP error code 7 to NoSuchElementError
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/38e2fc50-b900-4e1d-8df2-fe52d8ef700d/element [39m[31m500[39m [90m117 ms - 164[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/38e2fc50-b900-4e1d-8df2-fe52d8ef700d/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.getScreenshot() with args: ["38e2fc50-b900-4e1d-8df2-fe52d8ef700d"]
+[debug] [35m[JSONWP Proxy][39m Proxying [GET /screenshot] to [GET http://localhost:8297/wd/hub/session/b126ca74-ba13-4a0a-969f-cc827ef9382c/screenshot] with no body
+[debug] [35m[JSONWP Proxy][39m Got response with status 200: "{\"sessionId\":\"b126ca74-ba13-4a0a-969f-cc827ef9382c\",\"status\":0,\"value\":\"iVBORw0KGgoAAAANSUhEUgAABaAAAAoACAIAAADIlhKYAAAAA3NCSVQICAjb4U\\/gAAAgAElEQVR4\\nnOzdeXxcdb3\\/8XPOzGTfty5Zm+5tku6ltIWWsgoUtKCAVGTRqrf+9Io\\/5AJXuKLgrah4uW7Xn1cv\\niuBVVBBBRbYulK5ps7RNszV7mj2TdZKZOef3R8rkzGT2zHaS1\\/PRP3pOznzP50xOJpn3fBdRF5cq\\nAAAAAAAAaJkU7gIAAAAAAACmi4ADAAAAAABoHgEHAAAAAADQPAIOAAAAAACgeQQcAAAAAABA8wg4\\nAAAAAACA5hFwAAAAAAAAzSPgAAAAAAAAmkfAAQAAAAAANI+AAwAAAAAAaB4BBwAAAAAA0DwCDgAA\\nAAAAoHkEHAAAAAAAQPMIOAAAAAAAgOYRcAAAAAAAAM3Th7sAAAAAAAD89K1vfH3DujXeH\\/\\/yH1\\/9\\nw5\\/+3NvXF7ySEC6aCThiYqLvu2f3fz77jN8tmEymt95575lnnzt1umxkZDSAtQEAAACYPVKSk0tK\\nilaXFCcnJ6UkJ68uKXZ62Onyin6j0WgcOF1eUV5e2W80hrjO0FtVUlxWXhHik25cv3bH9m3eH3+u\\nqvqNv70pkG\\/MRJoJOPY8cN83vv7odFqIiYm5+cYbrrtmxzPPPrfvu8+ScQAAAADw0qqS4ltu\\/sjq\\nkuJtV25NSU725iHbrtyq3uw3GvcfOLT\\/4Pv7D74f+hQgBFaVFOfmZM\\/IS4NWaCPg+PTuT37\\/O08H\\npKmoqKiHvvKlN9965\\/3DRwLSIAAAAICZ6pabb7x154237rzJy1DDjZTk5Ft33nTrzpsEQeg3Gl99\\n7fVXX3vjz395IxBlht9EuhHuKjDbRXrAERMTveeB+w...
+[debug] [35m[MJSONWP][39m Responding to client with driver.getScreenshot() result: "iVBORw0KGgoAAAANSUhEUgAABaAAAAoACAIAAADIlhKYAAAAA3NCSVQICAjb4U/gAAAgAElEQVR4\nnOzdeXxcdb3/8XPOzGTfty5Zm+5tku6ltIWWsgoUtKCAVGTRqrf+9Io/5AJXuKLgrah4uW7Xn1cv\niuBVVBBBRbYulK5ps7RNszV7mj2TdZKZOef3R8rkzGT2zHaS1/PRP3pOznzP50xOJpn3fBdRF5cq\nAAAAAAAAaJkU7gIAAAAAAACmi4ADAAAAAABoHgEHAAAAAADQPAIOAAAAAACgeQQcAAAAAABA8wg4\nAAAAAACA5hFwAAAAAAAAzSPgAAAAAAAAmkfAAQAAAAAANI+AAwAAAAAAaB4BBwAAAAAA0DwCDgAA\nAAAAoHkEHAAAAAAAQPMIOAAAAAAAgOYRcAAAAAAAAM3Th7sAAAAAAAD89K1vfH3DujXeH//yH1/9\nw5/+3NvXF7ySEC6aCThiYqLvu2f3fz77jN8tmEymt95575lnnzt1umxkZDSAtQEAAACYPVKSk0tK\nilaXFCcnJ6UkJ68uKXZ62Onyin6j0WgcOF1eUV5e2W80hrjO0FtVUlxWXhHik25cv3bH9m3eH3+u\nqvqNv70pkG/MRJoJOPY8cN83vv7odFqIiYm5+cYbrrtmxzPPPrfvu8+ScQAAAADw0qqS4ltu/sjq\nkuJtV25NSU725iHbrtyq3uw3GvcfOLT/4Pv7D74f+hQgBFaVFOfmZM/IS4NWaCPg+PTuT37/O08H\npKmoqKiHvvKlN9965/3DRwLSIAAAAICZ6pabb7x154237rzJy1DDjZTk5Ft33nTrzpsEQeg3Gl99\n7fVXX3vjz395IxBlht9EuhHuKjDbRXrAERMTveeB+wKVbkyYyDgIOAAAAAA4te2KrffsvjMguYZT\nKcnJn979yU/v/uRE0vGrF367/+ChYJwoNEg3ECFEXVxquGtw5wt7Hnj6yScSExMC26zJZEpInx/Y\nNgEAAA...
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/38e2fc50-b900-4e1d-8df2-fe52d8ef700d/screenshot [39m[32m200[39m [90m340 ms - 177730[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mDELETE[39m [37m/wd/hub/session/38e2fc50-b900-4e1d-8df2-fe52d8ef700d[39m
+[35m[HTTP][39m [90m{}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.deleteSession() with args: ["38e2fc50-b900-4e1d-8df2-fe52d8ef700d"]
+[debug] [35m[BaseDriver][39m Event 'quitSessionRequested' logged at 1532881133854 (19:18:53 GMT+0300 (MSK))
+[35m[Appium][39m Removing session 38e2fc50-b900-4e1d-8df2-fe52d8ef700d from our master session list
+[debug] [35m[UiAutomator2][39m Deleting UiAutomator2 session
+[debug] [35m[UiAutomator2][39m Deleting UiAutomator2 server session
+[debug] [35m[JSONWP Proxy][39m Proxying [DELETE /] to [DELETE http://localhost:8297/wd/hub/session/b126ca74-ba13-4a0a-969f-cc827ef9382c] with no body
+[debug] [35m[JSONWP Proxy][39m Got response with status 200: "{\"sessionId\":\"b126ca74-ba13-4a0a-969f-cc827ef9382c\",\"status\":0,\"value\":\"Session deleted\"}"
+[debug] [35m[UiAutomator2][39m Resetting IME to 'com.android.inputmethod.latin/.LatinIME'
+[debug] [35m[ADB][39m Running '/Users/dimaprokop/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell ime set com.android.inputmethod.latin/.LatinIME'
+[debug] [35m[ADB][39m Running '/Users/dimaprokop/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell am force-stop ru.alfabank.mobile.android'
+[debug] [35m[UiAutomator2][39m [UIAutomator2] io.appium.uiautomator2.server.test.AppiumUiAutomator2Server:.
+[debug] [35m[UiAutomator2][39m [UIAutomator2] Time: 12.047
+[debug] [35m[UiAutomator2][39m [UIAutomator2] OK (1 test)
+[debug] [35m[Logcat][39m Stopping logcat capture
+[debug] [35m[ADB][39m Removing forwarded port socket connection: 8297 
+[debug] [35m[ADB][39m Running '/Users/dimaprokop/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 forward --remove tcp\:8297'
+[debug] [35m[BaseDriver][39m Event 'quitSessionFinished' logged at 1532881134640 (19:18:54 GMT+0300 (MSK))
+[debug] [35m[MJSONWP][39m Received response: null
+[debug] [35m[MJSONWP][39m But deleting session, so not returning
+[debug] [35m[MJSONWP][39m Responding to client with driver.deleteSession() result: null
+[35m[HTTP][39m [37m<-- DELETE /wd/hub/session/38e2fc50-b900-4e1d-8df2-fe52d8ef700d [39m[32m200[39m [90m787 ms - 76[39m
+[35m[HTTP][39m [90m[39m
+[35m[Appium][39m Received SIGINT - shutting down
