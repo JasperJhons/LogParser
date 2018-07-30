@@ -1,12 +1,12 @@
 class LogStore(object):
-    def __init__(self):
+    def __init__(self, lines_limit):
         self.__lines = []
-        self.__line_counter = 0
+        self.__lines_limit = lines_limit
 
     def append(self, line):
-        if self.__line_counter != 100:
+        if self.__lines_limit != 0:
             self.__lines.append(line)
-            self.__line_counter += 1
+            self.__lines_limit -= 1
         else:
             self.__lines.pop(0)
             self.__lines.append(line)
